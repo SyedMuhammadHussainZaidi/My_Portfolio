@@ -1,0 +1,214 @@
+/* navbar ka kaam */
+@media (min-width: 993px) and (max-width: 1063px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar {
+        display: inline;
+        font-size: 12px !important;
+        transition: 2s ease;
+
+    }
+    .logo {
+      cursor:none !important;
+        font-size: 22px;
+    } 
+}
+@media (max-width: 992px) {
+    .header {
+        padding: 1.25em 4%;
+    }
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgb(0, 0, 0);
+        border-bottom: 2px solid rgba(66, 124, 15, 0.62);
+        display: none;
+        backdrop-filter: blur(10px);
+        transition:  2s;
+    }
+    .navbar a {
+        display: block;
+        margin: 1.5rem 4%;
+    }
+    .navbar.active {
+        display: block;
+        transition: 2s ease;
+    }
+    .nav-bg1.active {
+        display: none;
+    }
+    .nav-bg {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 294px;
+        background: rgba(15, 58, 200, 0);
+        border-bottom: 2px solid rgba(66, 124, 15, 0.62);
+        display: none;
+        backdrop-filter: blur(10px);
+        z-index: -1;
+        transition: 2s ease;
+    }
+    .nav-bg.active {
+        display: block;
+        transition: 2s ease;
+    }
+    .navbar a:hover {
+        color: red;
+        text-shadow: 1px 2px 3px red, 0 0 30px red;
+    }
+}
+/* hero section ka kaam */
+@media (max-width:1075px){
+    .section-1 h5{
+      font-size: 4em !important;
+    }
+    h2{
+      font-size: 4em !important;
+    }
+  }
+  @media (max-width:921px){
+    .section-1 h5{
+      font-size: 3rem  !important;
+    }
+    .section-2 h2{
+      font-size: 3em !important;
+    }
+  }
+  @media (max-width:873px) {
+    .section-1{
+      flex-direction: column;
+      align-items: start;
+      line-height: 4.2em;
+    }
+    .section-1 h5{
+      font-size: 4em !important;
+      
+    }  
+  }
+  @media (max-width:789px){
+    .section-1 h5{
+      font-size: 3em !important;
+    }
+    h2{
+      font-size: 3em !important;
+    }
+  }
+  @media (max-width:789px){
+    .section-1 h5{
+      font-size: 2.9em !important;
+      line-height: 1em;
+      letter-spacing: 3px;
+    }
+    h2{
+      font-size: 2.9em !important;
+      letter-spacing: 3px;
+    }
+  }
+  @media (max-width:645px){
+    .section-1 h5{
+      font-size: 2.5em !important;
+    }
+    h2{
+      font-size: 2.5em !important;
+    }
+  }
+  @media (max-width:581px){
+    .section-1 h5{
+      font-size: 2.4em !important;
+    }
+    h2{
+      font-size: 2.4em !important;
+    }
+  }
+  @media (max-width:555px) {
+    .section-1 h5{
+      font-size: 2.2em !important;
+    }
+    h2{
+      font-size: 2.2em !important;
+    }
+  }
+  @media (max-width:524px) {
+    .section-1 h5{
+      font-size: 2em !important;
+    }
+    .hero-section{
+      padding: 20px;
+    }
+    h2{
+      font-size: 2em !important;
+    }
+  }
+  @media (max-width:314px) {
+    .hero-section{
+      padding: 10px;
+    }
+  }
+
+  /* coding qoute ka kaam */
+  @media (max-width: 768px) {
+    .qoute-section {
+
+      width:100% !important;
+        display: flex !important;
+        height: auto !important; 
+
+        min-height: 100px;
+        background-color: rgb(7, 46, 94);
+        box-shadow: 0 0 20px black, 0 0 20px black;
+    }
+    #quote-text {
+        text-shadow: 2px 1px 0 rgb(2, 91, 99);
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+    .qoute-section h3{
+      font-size: 42px;
+    }
+}
+/* about section ka kaam */
+
+/* Base styles */
+@media screen and (max-width: 1200px) {
+  .overview-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-container {
+    max-width: 500px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-container {
+    max-width: 400px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-container {
+    max-width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-container {
+    max-width: 250px;
+    height: 500px;
+  }
+}
